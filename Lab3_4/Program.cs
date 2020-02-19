@@ -1,19 +1,15 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
-namespace Lab3_4
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            using System;
-            using System.Text.RegularExpressions;
+    
+    
+            
 
 public class Example
         {
             public static void Main()
             {
-                string pattern = @"REGEX [
+                string pattern = @"REGEX [d]
 
 
 ";
@@ -24,6 +20,6 @@ public class Example
             }
         }
 
-    }
-}
-}
+    
+
+
